@@ -1,40 +1,57 @@
-* {
-    box-sizing: border-box;
+@media only screen and (min-width: 0px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;   
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+        font-size: 16px;
+    }
+
+    header {   
+        font-size: 140%;
+    } 
+
+
+    .bio_header, .portfolio_header {
+        font-size: 130%;
+    }
+
+    .headshot {
+        margin-top: 15px;
+        width: 300px;
+    }
+
+    p {
+        font-size: 80%;
+    }
+
+    .middle_p {
+        font-size: 115%;
+    }
+
+    .app_screenshot {
+        width: 300px;
+    }
+
+    .footer li {
+        display: block;
+    }
+
 }
 
-body {
-    display: flex;
-    flex-direction: column;   
-    justify-content: space-around;
-    align-items: center;
-    height: 800px;
-    padding: 50px;
-}
+@media only screen and (min-width: 768px) {
 
-header {   
-    display: block; 
-    font-size: 20px;
-    /* CENTERING NOT WORKING, why? */ 
-    margin-left: auto;
-    margin-right: auto;
-} 
+    body {
+        font-size: 20px;
+        padding: 100px 150px 100px 150px;
+    }
 
-.bio p, li {
-    font-size: 12px;
-}
 
-.bio_header, .portfolio_header {
-    font-size: 20px;
-}
 
-.headshot_container {
-
-}
-
-.headshot {
-    width: 300px;
-}
-
-.app_screenshot {
-    width: 300px;
 }
