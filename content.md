@@ -1,0 +1,38 @@
+ <!-- <p>Ever since that day at the mall where I first discovered Mario Brothers, 
+        I have always loved technology.  As a gamer, teacher, and musician, I have benefited enormously 
+        from the opportunities technology has ushered into each of these areas - especially in the 
+        last decade with the advent of the smart phone.  </p> -->
+        
+        <p><span class="bio_header">Bio:</span>
+            Being a web developer allows me to bring together the problem-solving that has characterized 
+            my life as a teacher 
+            <!-- (and, arguably, as a gamer)  -->
+            with the creativity found in my life as a musician. </p>
+            <!-- Mouse hover on above (perhaps the word "musician") pushes content down to reveal below?  -->
+                <p class="middle_p"> It is deeply fulfilling to bring something to life from the ground up that is functionally 
+                and aesthetically beautiful.</p>
+                <!-- .  Just like composing a piece of music, each bit of code must work 
+                in concert with all of the others to create something greater than the sum of their parts.</p> -->
+
+<p>Aside from teaching, gaming, and writing/listening to music, I love to read, spend time with my wife and 
+     daughter, and drink coffee.  Also...
+     <!-- mouse-hover over "Also..." to push content down and add the text below?  -->
+        <!-- <ul>
+            <li>I have published two solo albums (both available on Spotify).  The most recent album, recorded 
+                with members of the Phoenix Symphony, was named one of the best local Phoenix albums of 2015.</li>  
+            <li>I also have a MS from ASU in Biology and have published and defended two theses, one of which
+                at the graduate level.</li>
+        </ul> -->
+
+
+        <div class="headshot_container">
+        <img class="headshot" 
+        src="http://www.tipmovie.com/wp-content/uploads/2013/02/TOBIE-MILFORD-COMPOSER-The-Immigration-Paradox-Documentary-Movie-Immigration-Reform.png">
+    </div>
+
+
+
+    <div class="portfolio">
+        <h2 class="portfolio_header">Portfolio</h2>
+        <img class="app_screenshot" src="Tobie_Quiz_App.png">
+    </div>

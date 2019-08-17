@@ -1,57 +1,100 @@
-@media only screen and (min-width: 0px) {
-
-    * {
-        box-sizing: border-box;
-    }
-
-    body {
-        display: flex;
-        flex-direction: column;   
-        justify-content: space-between;
-        align-items: center;
-        padding: 50px;
-        font-size: 16px;
-    }
-
-    header {   
-        font-size: 140%;
-    } 
-
-
-    .bio_header, .portfolio_header {
-        font-size: 130%;
-    }
-
-    .headshot {
-        margin-top: 15px;
-        width: 300px;
-    }
-
-    p {
-        font-size: 80%;
-    }
-
-    .middle_p {
-        font-size: 115%;
-    }
-
-    .app_screenshot {
-        width: 300px;
-    }
-
-    .footer li {
-        display: block;
-    }
-
+* {
+    box-sizing: border-box;
 }
 
-@media only screen and (min-width: 768px) {
+body {
+    background: lightgray;
+    display: flex;
+    flex-direction: column;   
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 20px 50px;
+    font-size: 16px;
+}
+
+h2 {   
+    font-size: 140%;
+} 
+
+.bio_header, .portfolio_header {
+    font-size: 130%;
+}
+
+.headshot_container {
+    margin-top: 15px;
+    background: grey;
+    border: 4px, black, solid;
+    border-radius: 2px;
+    width: 300px;
+    height: 250px;
+}
+
+/* .headshot {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+} */
+
+.bio {
+    margin-top: 15px;
+}
+
+p {
+    font-size: 90%;
+}
+/* 
+.middle_p {
+    font-size: 115%;
+} */
+
+.portfolio_image {
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: grey;
+    border: 4px, black, solid;
+    border-radius: 2px;
+    height: 300px;
+}
+
+/* .app_screenshot {
+    
+} */
+
+.footer p {
+    font-size: 70%
+}
+
+
+@media only screen and (min-width: 700px) {
 
     body {
         font-size: 20px;
         padding: 100px 150px 100px 150px;
     }
+/* 
+    .portfolio_item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    } */
 
+
+}
+
+@media only screen and (min-width: 900px) {
+
+    body {
+        font-size: 24px;
+        padding: 100px 150px 100px 150px;
+    }
+
+
+    /* .portfolio_item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    } */
 
 
 }
