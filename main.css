@@ -3,7 +3,8 @@
 }
 
 body {
-    background: #F2F2F2;
+    /* background: #F2F2F2; */
+    background-image: url(../Portfolio/mountain_background.jpg);
     display: flex;
     flex-direction: column;   
     justify-content: space-between;
@@ -11,34 +12,22 @@ body {
     padding: 20px 50px 20px 50px;
     font-size: 16px;
     font-family: 'Fauna One', serif;
-    color: #0505FF;
+    color: #65432F;
     
 }
 
 h2 {   
     font-family: 'Playfair Display', serif;
     font-size: 140%;
-    text-align: center;
 } 
 
-.portfolio_header {
-    font-size: 130%;
-}
-
-.headshot_container {
-    margin-top: 15px;
-    background: grey;
-    border: 4px, black, solid;
-    border-radius: 2px;
-    width: 300px;
-    height: 250px;
-}
-
-/* .headshot {
-    margin-top: 15px;
+.headshot {
+    margin-top: 10px;
     margin-bottom: 15px;
     width: 300px;
-} */
+    border: 4px, black, solid;
+    border-radius: 2px;
+}
 
 .bio {
     margin-top: 15px;
@@ -46,22 +35,30 @@ h2 {
 
 p {
     font-size: 90%;
+    line-height: 145%;
 }
+
+.highlight {
+    font-family: Georgia;
+    font-size: 120%;
+    text-transform: uppercase;
+}
+
+/* Bring back? */
 /* 
 .middle_p {
     font-size: 115%;
 } */
 
 
-.portfolio_image {
-    width: 200px;
-    height: 200px;
+.portfolio_header {
+    margin: 15px 0px 25px 0px;
+}
+
+.app_screenshot {
+    width: 250px;
     margin-top: 15px;
     margin-bottom: 15px;
-    background: grey;
-    border: 4px, black, solid;
-    border-radius: 2px;
-    
 }
 
 .app_description {
@@ -69,10 +66,10 @@ p {
     height: 200x;
 }
 
-/* 
-.app_screenshot {
-    
-} */
+h3 {
+    margin: 0px 0px 0px 0px;
+}
+
 
 .footer p {
     font-size: 70%
@@ -83,42 +80,46 @@ p {
 
     body {
         font-size: 20px;
-        padding: 100px 150px 100px 150px;
+        padding: 30px 100px 100px 100px;
     }
 
+    h2 {
+        font-size: 200%;
+    }
+
+    .headshot {
+        width: 450px;
+    }
 
     .portfolio_item {
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        width: 450px;
+        align-items: flex-start;
+        width: 600px;
 
     }
-/* 
-    .portfolio_image, .app_description {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    }  */
 
-    .portfolio_image {
-        width: 200px;
-        height: 200px;
+    .app_screenshot {
+        width: 375px;
         background: grey;
         border: 4px, black, solid;
         border-radius: 2px;
 
-
+    .app_description p {
+        width: 350px;
+    }
 }
 
 @media only screen and (min-width: 900px) {
 
     body {
         font-size: 24px;
-        padding: 100px 150px 100px 150px;
+        padding: 10px 100px 100px 100px;
     }
 
+    .portfolio_item {
+        width: 750px;
+    }
 
 }
 }
