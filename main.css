@@ -3,20 +3,25 @@
 }
 
 body {
-    background: lightgray;
+    background: #F2F2F2;
     display: flex;
     flex-direction: column;   
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px 20px 50px;
     font-size: 16px;
+    font-family: 'Fauna One', serif;
+    color: #0505FF;
+    
 }
 
 h2 {   
+    font-family: 'Playfair Display', serif;
     font-size: 140%;
+    text-align: center;
 } 
 
-.bio_header, .portfolio_header {
+.portfolio_header {
     font-size: 130%;
 }
 
@@ -47,17 +52,25 @@ p {
     font-size: 115%;
 } */
 
+
 .portfolio_image {
-    width: 300px;
+    width: 200px;
+    height: 200px;
     margin-top: 15px;
     margin-bottom: 15px;
     background: grey;
     border: 4px, black, solid;
     border-radius: 2px;
-    height: 300px;
+    
 }
 
-/* .app_screenshot {
+.app_description {
+    width: 200px;
+    height: 200x;
+}
+
+/* 
+.app_screenshot {
     
 } */
 
@@ -72,12 +85,29 @@ p {
         font-size: 20px;
         padding: 100px 150px 100px 150px;
     }
-/* 
+
+
     .portfolio_item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 450px;
+
+    }
+/* 
+    .portfolio_image, .app_description {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-    } */
+        align-items: center;
+    }  */
+
+    .portfolio_image {
+        width: 200px;
+        height: 200px;
+        background: grey;
+        border: 4px, black, solid;
+        border-radius: 2px;
 
 
 }
@@ -90,11 +120,5 @@ p {
     }
 
 
-    /* .portfolio_item {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    } */
-
-
+}
 }
