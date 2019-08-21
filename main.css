@@ -66,6 +66,10 @@ p {
     height: 200x;
 }
 
+.app_title {
+    text-transform: uppercase;
+}
+
 h3 {
     margin: 0px 0px 0px 0px;
 }
@@ -105,7 +109,7 @@ h3 {
         border: 4px, black, solid;
         border-radius: 2px;
 
-    .app_description p {
+    .app_description {
         width: 350px;
     }
 }
@@ -119,6 +123,14 @@ h3 {
 
     .portfolio_item {
         width: 750px;
+    }
+
+    .app_screenshot {
+        width: 450px;
+    }
+
+    .app_description {
+        width: 250px;
     }
 
 }
